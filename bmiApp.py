@@ -11,7 +11,7 @@ if st.button("📏 คำณวนค่า BMI 🧮"):
   bmi = weight / (height_m ** 2)
 
   st.write("---")
-  st.header(f"ค่าของคุณคือ: **{bmi=.2f}**")
+  st.header(f"ค่าของคุณคือ: **{bmi:.2f}**")
 
 st.divider()
 

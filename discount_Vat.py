@@ -20,7 +20,7 @@ st.divider()
 st.write(f"• ส่วนลด ({showsale:.0f}%): -{showsaleprice:.2f} บาท")
 st.write(f"• ราคาหลังหักส่วนลด: {saleprice:.2f} บาท")
 st.write(f"• ภาษีมูลค่าเพิ่ม (VAT 7%): +{showvat:.2f} บาท")
-st.title(f"• ราคาสุทธิที่ต้องจ่าย: {shownet:.2f} บาท")
+st.header(f"• ราคาสุทธิที่ต้องจ่าย: {shownet:.2f} บาท")
 
 st.divider()
 
